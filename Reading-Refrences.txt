@@ -1,8 +1,0 @@
-11/04/23 - By Vishal sir
-
-<!-- Twitter card & Open graph tags -->
-https://www.everywheremarketer.com/blog/ultimate-guide-to-social-meta-tags-open-graph-and-twitter-cards
-
-<!-- Meta tag -->
-1. https://moz.com/learn/seo/meta-description
-2. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
