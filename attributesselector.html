@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        *{
+            margin: 10px;
+        }
+        input[type='text'] {
+            border: 2px dotted blue;
+        }
+        input[type='number'] {
+            border: 2px dotted red;
+        }
+
+        input[type= 'email'] {
+            border: 2px dotted yellow;
+        }
+        a[target='_blank'] {
+            font-size: 24px;
+            color: red;
+        }
+        div[title~='Relax'] {
+            background-color: red;
+            color: white;
+        }
+        a[title~='Tutorial'] {
+            background-color: red;
+            color: white;
+        }
+        /* img[alt~='Food'] {
+            background-color: blue;
+            border: 3px solid;
+        } */
+
+        img[alt|='Food'] {
+            background-color: blue;
+            border: 3px solid;
+        }
+        span[class^="start"] {
+            background-color: aqua;
+
+        }
+        span[class$="start"] {
+            background-color: yellow;
+        }
+
+        span[class*='chi'] {
+            background-color: brown;
+            color: white;
+            font-size: 24px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+<form>
+    <input type="text" placeholder="Enter a name" />
+    <input type="text" placeholder="Enter last name" />
+    <input type="text" placeholder="Enter city" />
+    <input type="text" placeholder="Enter pincode" />
+    <input type="text" placeholder="Enter organization name" />
+    <input type="text" placeholder="Enter organization Id"/>
+    <input type="text" placeholder="Enter Org City" />
+    <input type="text" placeholder="Enter Org Gstin" />
+    <input type="number" placeholder="Enter a mobile number"/>
+    <input type="email" placeholder="Enter a email"/>
+    <input type="email" placeholder="Enter a org email"/>
+
+    <a href="Tutorial1.html" target="_blank" title="Tutorial 1">Click me</a>
+    <a href="Tutorial2.html" target="blank" title="cool">Click me 2</a>
+    <a href="Tutorial2.html" target="_blank" title="Tutorial 3">Click me 3</a>
+
+    <div title="Hey Relax"> This is div 1</div>
+    <div title="chill Relax"> This is div 2</div>
+    <div title="cool"> This is div 3</div>
+    <div title="Hey Relax"> This is div 4</div>
+
+    <img src ='/image/food.avif' alt="Food Image "/>
+    <img src ='/image/food.avif' alt="Dinner Image"/>
+    <img src ='/image/food.avif' alt="Study Image"/>
+    <img src ='/image/food.avif' alt="Food Image"/>
+
+
+
+    <img src ='/image/food.avif' alt="Food-Image "/>
+    <img src ='/image/food.avif' alt="Dinner-Image"/>
+    <img src ='/image/food.avif' alt="Study-Image"/>
+    <img src ='/image/food.avif' alt="Food-Image"/>
+
+    <span class="starthellohi">Hey this is span1</span>
+    <span class="hellohistart">Hey this is span2</span>
+
+    <span class="chitomrata">heta jhasbx nvabshx jgajxs </span>
+    <span class="tubchi">heta jhasbx nvabshx jgajxs </span>
+    <span class="tubzbx ">heta jhasbx nvabshx jgajxs </span>
+
+
+  
+
+
+</form>
+</body>
+

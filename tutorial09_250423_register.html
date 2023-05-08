@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .register {
+            width: 250px;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            row-gap: 12px;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px 10px rgb(161, 161, 161);
+        }
+        .register h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .input {
+            width: 200px;
+            border: 2px solid rgb(224, 212, 212);
+            padding: 8px;
+            border-radius: 20px;
+        }
+        .register-btn {
+            width: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            background: rgb(59, 59, 238);
+            color: antiquewhite;
+            border: transparent;
+            transition: 0.5s;
+        }
+        .register-btn:hover {
+            background: black;
+        }
+        .register-text-div {
+            font-size: 12px;
+            color: rgb(124, 124, 124);
+        }
+        .register-text-div a {
+            text-decoration: none;
+        }
+    </style>
+    <title>Register Form</title>
+</head>
+<body>
+    <form class="register">
+        <h2>Register</h2>
+        <input type="text" placeholder="Enter firstname" class="input"/>
+        <input type="text" placeholder="Enter lastname" class="input"/>
+        <input type="number" placeholder="Enter phone number" class="input"/>
+        <input type="email" placeholder="Enter your email" class="input"/>
+        <input type="password" placeholder="Enter password" class="input"/>
+        <input type="password" placeholder="Re-enter password" class="input"/>
+        <input type="button" value="Register" class="register-btn">
+        <div class="register-text-div">Already have account, <a href="tutorial09_250423_login.html">Login here</a> </div>
+    </form>
+</body>
+</html>

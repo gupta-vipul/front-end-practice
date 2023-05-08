@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .login {
+            width: 250px;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            row-gap: 12px;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px 10px rgb(161, 161, 161);
+        }
+        .login h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .input {
+            width: 200px;
+            border: 2px solid rgb(224, 212, 212);
+            padding: 8px;
+            border-radius: 20px;
+        }
+
+        .login-btn {
+            width: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            background: rgb(59, 59, 238);
+            color: antiquewhite;
+            border: transparent;
+            transition: 0.5s;
+        }
+
+        .login-btn:hover {
+            background: black;
+        }
+
+        .login-text-div {
+            font-size: 12px;
+            color: rgb(124, 124, 124);
+        }
+        .login-text-div a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="login">
+        <h2>Login</h2>
+        <input type="text" placeholder="Enter user name" class="input">
+        <input type="password" placeholder="Enter password" class="input">
+        <input type="button" value="Login" class="login-btn">
+        <div class="login-text-div">Don't have account, <a href="tutorial09_250423_register.html">Register here!</a></div>
+    </form>
+</body>
+</html>

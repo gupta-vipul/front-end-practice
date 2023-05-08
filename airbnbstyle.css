@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility class */
+.flex {
+    display: flex;
+}
+.auto {
+    margin: auto;
+}
+.filterimage {
+    height: 25px;
+}
+
+/* Header CSS */
+header {
+    height: 85px;
+    padding: 0px 40px;
+    border-bottom: 1px solid rgb(230, 228, 228);
+    justify-content: space-between;
+}
+
+header .logo img {
+    margin-top: 15px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.header-center-section {
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    border-radius: 50px;
+    border: 1px solid rgb(214, 214, 214);
+    box-shadow: 0px 1px 3px 1px rgb(209, 209, 209);
+}
+
+.header-center-touchpoint1 {
+    padding: 20px;
+    font-size: .9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-center-touchpoint2 {
+    padding: 20px;
+    font-size: .9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-center-touchpoint3 {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 20px 20px;
+    font-size: .9rem;
+    color: rgb(131, 131, 131);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchbtn img{
+    margin-left: 10px;
+    height: 40px;
+}
+
+.header-last-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-last-section button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-last-section button:hover {
+    background-color: rgb(238, 236, 236);
+}
+
+.earth-globe-header {
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.earth-globe-header img {
+    height: 15px;
+}
+.earth-globe-header:hover {
+    background-color: rgb(238, 236, 236);
+}
+
+.login-btn {
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    column-gap: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 25px;
+}
+
+.login-btn:hover {
+    box-shadow: 0px 1px 3px 1px rgb(209, 209, 209);
+}
+
+.header-profile-menu {
+    opacity: 50%;
+    padding-left: 5px;
+    height: 15px;
+}
+
+.header-profile-pic {
+    opacity: 50%;
+    height: 30px;
+}
+
+.filter-sections {
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    padding: 0px 40px;
+    border-bottom: 1px solid rgb(230, 228, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75rem;
+}
+
+.filter-card-box {
+    row-gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    opacity: 70%;
+}
+
+.more-filter {
+    border: 1px solid rgb(230, 228, 228);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    align-items: center;
+}
+
+.total-price-display {
+    width: 190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.fees-tab {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    color: grey;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.cards-area {
+    margin-top: 15px;
+    padding: 0px 40px;
+}

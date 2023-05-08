@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Box | HTML</title>
+    <style>
+        .name-input {
+            padding: 10px;
+            border: 2px solid;
+            border-top-color: white;
+            border-right-color: white;
+            border-left-color: white;
+            border-bottom-color: rgb(255, 123, 0);
+            width: 150px;
+        }
+        .name-input:hover {
+            background-color: rgb(240, 157, 79);
+        }
+        .email-input {
+            padding: 10px;
+            border: 2px solid;
+            border-top-color: white;
+            border-right-color: white;
+            border-left-color: white;
+            border-bottom-color: rgb(2, 117, 8);
+            width: 150px;
+        }
+        .email-input:hover {
+            background-color: rgb(62, 207, 69);
+        }
+        .number-input {
+            /* margin-top: 10px; */
+            padding: 10px;
+            border: 2px solid;
+            border-top-color: white;
+            border-right-color: white;
+            border-left-color: white;
+            border-bottom-color: rgb(221, 216, 216);
+            width: 150px;
+
+        }
+        .number-input:hover {
+            background-color: rgb(221, 216, 216);
+        }
+        .checkbox-input {
+            width: 20px;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h2>Using multiple div tags</h2>
+    <div>
+        <input class="name-input" type="email" placeholder="Enter your name">
+    </div>
+    <div>
+        <input class="number-input" type="number" placeholder="Enter phone number">
+    </div>
+    <div>
+        <input class="email-input" type="text" placeholder="Enter your email">
+    </div>
+    <div style="padding: 10px;">
+        <span><strong>Gender</strong></span>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="">Female</label>
+    </div>
+    <div>
+        <input type="checkbox">
+    </div>
+    
+    <h2>Using single div tag making form vertically aligned using flex properties</h2>
+    <div class="parent">
+        <input class="name-input" type="email" placeholder="Enter your name">
+        <input class="number-input" type="number" placeholder="Enter phone number">
+        <input class="email-input" type="text" placeholder="Enter your email">
+        <div style="margin: 10px">
+            <span><strong>Gender</strong></span>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="">Female</label>
+        </div>
+        <input class="checkbox-input" type="checkbox">
+    </div>
+</body>
+</html>
