@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .container {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: blueviolet;
+            position: absolute;
+            animation-name: moving;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes moving {
+            0% {
+                left: 0px;
+                top: 10%;
+                transform: scale(1.1);
+                background-color: yellow;
+            }
+            25% {
+                left: 200px;
+                top: 40%;
+                transform: scale(1.5);
+                background-color: violet;
+            }
+            50% {
+                left: 300px;
+                top: 10%;
+                transform: scale(2.0);
+                background-color: turquoise;
+            }
+            75% {
+                left: 400px;
+                top: 40%;
+                transform: scale(1.5);
+                background-color: tomato;
+            }
+            100% {
+                left: 500px;
+                top: 40%;
+                transform: scale(1.0);
+                background-color: teal;
+            }
+        }
+
+        .ball {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            background-color: springgreen;
+            animation-name: rolamroll;
+            animation-duration: 2s;
+            animation-iteration-count: 100;
+        }
+        @keyframes rolamroll {
+            0% {
+                left: 0px;
+                transform: rotate(45deg);
+            }
+            50% {
+                left: 100px;
+                transform: rotate(90deg)
+            }
+            100% {
+                left: 0px;
+                transform: rotate(135deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"><div class="ball"></div></div>
+    
+</body>
+
+</html>
